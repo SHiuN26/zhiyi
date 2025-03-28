@@ -1,0 +1,12 @@
+{
+  "contact": {
+    "title": "聯絡我們",
+    "name": "您的姓名",
+    "email": "電子郵件",
+    "message": "訊息內容",
+    "submit": "送出",
+    "sending": "送出中…",
+    "success": "已成功送出表單！",
+    "error": "送出失敗，請稍後再試。"
+  }
+}
