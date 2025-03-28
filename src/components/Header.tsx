@@ -4,7 +4,6 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useLocale, useTranslations } from "next-intl";
 import { Menu, X } from "lucide-react";
-import { LogoImage } from "./LogoImage";
 import { useState, useEffect } from "react";
 
 export const Header = () => {
