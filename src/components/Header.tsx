@@ -51,10 +51,10 @@ export const Header = () => {
             onClick={handleLinkClick}
             className="text-2xl font-bold hover:opacity-80"
           >
-            致一冷凍空調-Zhiyi
+            致一冷凍空調-Zhiyi 這是測試LOGO
           </Link>
           <div className="hidden">
-            <LogoImage src={"zhiyi"} />
+            <LogoImage />
           </div>
         </div>
         <button
