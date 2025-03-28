@@ -1,7 +1,11 @@
+"use client";
 import { useTranslations } from "next-intl";
 import PageAnimatedWrapper from "@/components/PageAnimatedWrapper";
+import { usePageMeta } from "@/hooks/usePageMeta";
+
 export default function Home() {
   const t = useTranslations("home");
+  usePageMeta();
   return (
     <PageAnimatedWrapper>
       <div className="space-y-6 text-center md:text-left">

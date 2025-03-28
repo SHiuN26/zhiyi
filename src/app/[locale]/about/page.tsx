@@ -1,8 +1,11 @@
+"use client";
 import { useTranslations } from "next-intl";
 import PageAnimatedWrapper from "@/components/PageAnimatedWrapper";
+import { usePageMeta } from "@/hooks/usePageMeta";
 
 export default function AboutPage() {
   const t = useTranslations("about");
+  usePageMeta();
   return (
     <PageAnimatedWrapper>
       <div className="space-y-4">
@@ -10,90 +13,6 @@ export default function AboutPage() {
           {t("title")}
         </h1>
         <p className="leading-relaxed md:text-lg">{t("content")}</p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
-          suscipit non id aspernatur sapiente dolores, omnis accusamus neque
-          aperiam odio excepturi hic minima explicabo praesentium. Alias dolorum
-          itaque voluptatem perferendis.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
-          suscipit non id aspernatur sapiente dolores, omnis accusamus neque
-          aperiam odio excepturi hic minima explicabo praesentium. Alias dolorum
-          itaque voluptatem perferendis.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
-          suscipit non id aspernatur sapiente dolores, omnis accusamus neque
-          aperiam odio excepturi hic minima explicabo praesentium. Alias dolorum
-          itaque voluptatem perferendis.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
-          suscipit non id aspernatur sapiente dolores, omnis accusamus neque
-          aperiam odio excepturi hic minima explicabo praesentium. Alias dolorum
-          itaque voluptatem perferendis.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
-          suscipit non id aspernatur sapiente dolores, omnis accusamus neque
-          aperiam odio excepturi hic minima explicabo praesentium. Alias dolorum
-          itaque voluptatem perferendis.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
-          suscipit non id aspernatur sapiente dolores, omnis accusamus neque
-          aperiam odio excepturi hic minima explicabo praesentium. Alias dolorum
-          itaque voluptatem perferendis.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
-          suscipit non id aspernatur sapiente dolores, omnis accusamus neque
-          aperiam odio excepturi hic minima explicabo praesentium. Alias dolorum
-          itaque voluptatem perferendis.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
-          suscipit non id aspernatur sapiente dolores, omnis accusamus neque
-          aperiam odio excepturi hic minima explicabo praesentium. Alias dolorum
-          itaque voluptatem perferendis.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
-          suscipit non id aspernatur sapiente dolores, omnis accusamus neque
-          aperiam odio excepturi hic minima explicabo praesentium. Alias dolorum
-          itaque voluptatem perferendis.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
-          suscipit non id aspernatur sapiente dolores, omnis accusamus neque
-          aperiam odio excepturi hic minima explicabo praesentium. Alias dolorum
-          itaque voluptatem perferendis.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
-          suscipit non id aspernatur sapiente dolores, omnis accusamus neque
-          aperiam odio excepturi hic minima explicabo praesentium. Alias dolorum
-          itaque voluptatem perferendis.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
-          suscipit non id aspernatur sapiente dolores, omnis accusamus neque
-          aperiam odio excepturi hic minima explicabo praesentium. Alias dolorum
-          itaque voluptatem perferendis.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
-          suscipit non id aspernatur sapiente dolores, omnis accusamus neque
-          aperiam odio excepturi hic minima explicabo praesentium. Alias dolorum
-          itaque voluptatem perferendis.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
-          suscipit non id aspernatur sapiente dolores, omnis accusamus neque
-          aperiam odio excepturi hic minima explicabo praesentium. Alias dolorum
-          itaque voluptatem perferendis.
-        </p>
       </div>
     </PageAnimatedWrapper>
   );

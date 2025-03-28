@@ -1,11 +1,10 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
-
 "use client";
 import { useState } from "react";
 import { useTranslations } from "next-intl";
 import PageAnimatedWrapper from "@/components/PageAnimatedWrapper";
 import { useRouter } from "next/navigation";
 import { useLocale } from "next-intl";
+import { usePageMeta } from "@/hooks/usePageMeta";
 
 export default function ContactPage() {
   const [name, setName] = useState("");
@@ -18,6 +17,7 @@ export default function ContactPage() {
   const t = useTranslations("contact");
   const locale = useLocale();
   const router = useRouter();
+  usePageMeta();
 
   const handelSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();

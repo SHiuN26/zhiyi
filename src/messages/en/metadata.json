@@ -1,0 +1,26 @@
+{
+  "home": {
+    "title": "Zhiyi HVAC | Professional Cooling and Air Conditioning Solutions",
+    "description": "Zhiyi specializes in large-scale HVAC system design and engineering, delivering efficient and reliable one-stop solutions."
+  },
+  "about": {
+    "title": "About Zhiyi | HVAC Engineering Experts",
+    "description": "Zhiyi is a Taiwan-based HVAC engineering firm offering comprehensive services from planning and design to installation and maintenance."
+  },
+  "services": {
+    "title": "Services | Zhiyi HVAC Solutions",
+    "description": "We provide HVAC system design, on-site construction, energy-saving integration, maintenance, and system upgrades."
+  },
+  "cases": {
+    "title": "Case Studies | HVAC Engineering Projects",
+    "description": "Zhiyi has delivered numerous large-scale projects including commercial spaces, factories, and refrigeration systems."
+  },
+  "contact": {
+    "title": "Contact Us | Inquire About HVAC Services",
+    "description": "Feel free to contact us for more information about our HVAC design and project services."
+  },
+  "thank": {
+    "title": "Thank You for Contacting | Zhiyi HVAC",
+    "description": "We’ve received your message and will get back to you shortly."
+  }
+}

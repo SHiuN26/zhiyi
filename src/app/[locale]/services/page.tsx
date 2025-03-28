@@ -1,9 +1,12 @@
+"use client";
 import { useTranslations } from "next-intl";
 import PageAnimatedWrapper from "@/components/PageAnimatedWrapper";
+import { usePageMeta } from "@/hooks/usePageMeta";
 
 export default function ServicesPage() {
   const t = useTranslations("services");
   const items: string[] = t.raw("items");
+  usePageMeta();
   return (
     <PageAnimatedWrapper>
       <div className="space-y-4">
