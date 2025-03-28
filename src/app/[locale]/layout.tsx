@@ -8,9 +8,12 @@ import { routing } from "@/i18n/routing";
 import { getMessages } from "next-intl/server";
 
 export const metadata: Metadata = {
-  title: "致一冷凍空調 Zhiyi Co.",
+  title: "致一冷凍空調 Zhenyi Co.",
   description:
     "致一專注於大型冷凍空調設計與工程，提供專業節能的空調系統整合解決方案。",
+  verification: {
+    google: "T4coAA1NNSu7-LN20UbIpCVf6e1rIaArKOvzec5-hxc",
+  },
 };
 
 export function generateStaticParams() {
