@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 import { useLocale, useTranslations } from "next-intl";
 import { Menu, X } from "lucide-react";
 import { useState, useEffect } from "react";
+import { LogoImage } from "./LogoImage";
 
 export const Header = () => {
   const t = useTranslations("nav");
@@ -52,6 +53,9 @@ export const Header = () => {
           >
             致一冷凍空調-Zhiyi
           </Link>
+          <div className="hidden">
+            <LogoImage src={"zhiyi"} />
+          </div>
         </div>
         <button
           className="md:hidden focus:outline-none"
