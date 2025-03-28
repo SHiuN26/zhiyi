@@ -51,7 +51,7 @@ export const Header = () => {
             onClick={handleLinkClick}
             className="text-2xl font-bold hover:opacity-80"
           >
-            致一冷凍空調
+            致一冷凍空調-Zhiyi
           </Link>
         </div>
         <button

@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { useTranslations } from "next-intl";
 import PageAnimatedWrapper from "@/components/PageAnimatedWrapper";
-import { useRouter } from "next/router";
+import { useRouter } from "next/navigation";
 import { useLocale } from "next-intl";
 
 export default function ContactPage() {
