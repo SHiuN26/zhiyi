@@ -2,10 +2,10 @@
 import { getMessages } from "next-intl/server";
 import { Metadata } from "next";
 
-export async function getMetadataByPath(pathKey: string): Promise<Metadata> {
+export async function getMetadataByPath(pageKey: string): Promise<Metadata> {
   const messages = await getMessages();
 
-  const meta = messages?.[pathKey];
+  const meta = messages?.[pageKey];
 
   if (!meta || !meta.title || !meta.description) {
     return {
@@ -15,7 +15,7 @@ export async function getMetadataByPath(pathKey: string): Promise<Metadata> {
   }
 
   return {
-    title: meta.title as string,
-    description: meta.description as string,
+    title: meta.title,
+    description: meta.description,
   };
 }
